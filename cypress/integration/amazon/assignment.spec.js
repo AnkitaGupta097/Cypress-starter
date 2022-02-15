@@ -75,7 +75,29 @@ context(('Amazon website testing'), ()=>{
     cy.get("#nav-hamburger-menu").click()
     cy.get("#hmenu-content > ul.hmenu-visible > li").contains("Mobiles, Computers").click()
     cy.get("#hmenu-content > ul.hmenu-visible > li").contains("main menu").click()
+    cy.get(".hmenu-close-icon").click()
 
 })
+
+it(('Go to orders'),()=>{
+  cy.get("#nav-orders").click()
+
+  //sign in
+  const phone = Cypress.env("phone")
+  const password = Cypress.env("password")
+
+  cy.get("#ap_email").type(phone)
+  cy.get(".a-button-inner > #continue").click()
+  cy.get("#ap_password").type(atob(password),{log:false})
+  cy.get("#signInSubmit").click()
+ })
+
+ it(('Select past one year orders'),()=>{
+    const date = new Date()
+    date.setFullYear(date.getFullYear-1)
+    cy.get(".order-filter-dropdown").click()
+
+
+ })
 
   });
