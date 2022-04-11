@@ -1,0 +1,17 @@
+{
+    "menu": ":nth-child(5) > .subtabs__tab-link",
+    "vendorTab": ":nth-child(2) > .input-suggestions__suggestion-content > .input-suggestions__suggestion-content-text > .submenu-link__dropdown-item",
+    "resourceTab":".page-layout__tabs > .subtabs > :nth-child(3) > .subtabs__tab-link",
+    "addResourceButton":".tx-stack__block--sm > .btn",
+    "resourceNameInput":".text-input",
+    "resourceKindSelector":":nth-child(2) > .labeled-input > .select > .select-input__container > .select-input__wrapper",
+    "chemicalStructure":":nth-child(2) > .input-suggestions__suggestion-content > .input-suggestions__suggestion-content-text",
+    "linkCompoundButton":".labeled-input > .btn",
+    "kindFilter":":nth-child(1) > :nth-child(1) > .search-filter-bar-title-wrapper > .search-filter-wrapper__title",
+    "storageFilter":":nth-child(2) > :nth-child(1) > .search-filter-bar-title-wrapper > .search-filter-wrapper__title",
+    "chemicalStructureRadio":":nth-child(1) > :nth-child(1) > .search-filter-wrapper__vertical-options > .search-filter > .radio-group > :nth-child(2) > .tx-radio__content > .tx-radio__text",
+    "cold_20":":nth-child(2) > :nth-child(1) > .search-filter-wrapper__vertical-options > .search-filter > .radio-group > :nth-child(4) > .tx-radio__content > .tx-radio__text",
+    "createResource":".create-org",
+    "storageValue":".kv-list > :nth-child(4) > .kv-list__value-text:nth-child(1)",
+    "resourceCards":".resource-card__card",
+    "kindValue":".resource-card__kind > .kv-list > :nth-child(2) > .kv-list__value-text:nth-child(1)"}

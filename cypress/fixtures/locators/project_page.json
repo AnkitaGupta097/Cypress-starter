@@ -1,3 +1,25 @@
 {
-    
+    "projectTab": {
+        "el":"li",
+        "text":"Projects"
+    },
+    "newProjectSquare": ".project-square--create-new",
+    "newprojectNameInput":".labeled-input:nth-child(1) > .validated-input > .validated-input__input > .text-input",
+    "submitButton":{
+        "el":"button",
+        "text":"Submit"
+    },
+    "projectSquareCard":".project-square.card",
+    "firstProjectSquareCard":".project-squares .project-square:nth-child(2)",
+    "projectHeader":".project-square__header-content > .project-square__headers > .project-square__header",
+    "actionMenu":".action-menu",
+    "deleteProjectOption":".action-menu__options > :nth-child(1)",
+    "projectSelector":".project-square__contents",
+    "destroyButton":{
+        "el":"button",
+        "text":"Destroy"
+    },
+    "favoriteIcon":"div.project-square__favorite-icon > .project-square__favorite-icon",
+    "starredProjectFilter":".projects-search-filters__favorite-filter"
+
 }

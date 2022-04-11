@@ -2,6 +2,8 @@
     "viewportHeight":1080,
     "viewportWidth":1920,
     "env":{
+        "APP_URL": "http://localhost:5555",
+        "session_cookie": "transcriptic_session",
         "user":"ben.miles@strateos.com",
         "str-password":"Testing123!"
     }

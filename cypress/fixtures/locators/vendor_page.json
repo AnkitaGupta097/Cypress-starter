@@ -1,0 +1,14 @@
+{
+    "menu": ":nth-child(5) > .subtabs__tab-link",
+    "vendorTab": ":nth-child(2) > .input-suggestions__suggestion-content > .input-suggestions__suggestion-content-text > .submenu-link__dropdown-item",
+    "vendorsSubTab": ".page-layout__tabs > .subtabs > :nth-child(4) > .subtabs__tab-link",
+    "addVendorButton": ".fa-plus",
+    "vendorNameInputField": ".text-input",
+    "createVendorButton": ".btn-primary.create-org>.btn__content--disableFormat>span:contains('Create Vendor')",
+    "createdNewVendor": ":nth-child(1) > :nth-child(1) > .amino-table__cell-content--scrollable > div > a",
+    "deleteIcon":" tbody > .amino-table__row:nth-child(1)  .tooltip-wrapper > .btn > .icon > .fa-trash-alt",
+    "deleteButton":".create-org:contains('Destroy')"
+}
+
+
+
