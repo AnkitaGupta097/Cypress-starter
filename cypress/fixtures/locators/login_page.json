@@ -1,0 +1,7 @@
+{
+    "loginForm": "form.login-form",
+    "emailAddressInput":"input[type=email]",
+    "passwordInput":"input[type=password]",
+    "submitButton":"#submitButton"
+
+}

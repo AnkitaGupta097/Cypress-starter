@@ -1,0 +1,27 @@
+{
+    "compoundTab": {
+    "el":"li",
+    "text":"Compounds"
+},
+"registerCompoundsButton":{
+    "el":"button",
+    "text":"Register Compound"
+},
+   "drawOption": ":nth-child(1) > .btn > .btn__content > .compound-dropdown__button",
+    "publicCompoundToggle": ".toggle__label--on",
+    "browseFilesOption": ".tx-type--accent",
+    "smilesInput": ".validated-input__input > .text-input",
+    "nextButton": ".next-container > span > .btn",
+    "modalCloseIcon": "button .fa-times",
+    "nickName": ":nth-child(1) > .labeled-input > .text-input",
+    "createCompound": ".next-container > span > .btn",
+    "bannerTitle":{
+       "el": ".banner .banner__title",
+       "text":"Duplicate Molecule"
+    },
+    "smileSearchInput":"input[placeholder='SMILES String...']",
+    "tableBody":"tbody",
+    "tableRow":"amino-table__row",
+    "tBodyRow":"tbody > .amino-table__row",
+    "rowCheckbox":"div.tx-checkbox"
+}
